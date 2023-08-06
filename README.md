@@ -36,22 +36,22 @@ CREATE TABLE IF NOT EXISTS public."Author"
 
 The project should have the following structure:
 
-src/
-|-- controllers/
-|-- custom_helpers/
-|-- db_actions/
-|-- models/
-|-- main.rs 
+src/  
+|-- controllers/  
+|-- custom_helpers/  
+|-- db_actions/  
+|-- models/  
+|-- main.rs  
 
-Create a .env file at the root of your project directory.
+Create a .env file at the root of src directory.
     
- src/
-|-- controllers/
-|-- custom_helpers/
-|-- db_actions/
-|-- models/
-|-- main.rs 
-|-- .env
+ src/  
+|-- controllers/  
+|-- custom_helpers/  
+|-- db_actions/  
+|-- models/  
+|-- main.rs  
+|-- .env  
     
 Inside the .env file, add the following content (use your own values):
 
