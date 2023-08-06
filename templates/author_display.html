@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Author details</title>
+</head>
+<body>
+    <form action="/author/{{ author.id }}" method="post">
+        <label>
+            First Name:
+            <input type="text" name="first_name" value="{{ author.first_name }}" required>
+        </label>
+        <br>
+        
+        <label>
+            Last Name:
+            <input type="text" name="last_name" value="{{ author.last_name }}" required>
+        </label>
+        <br>
+        
+        <input type="submit" value="Update Author">
+    </form>
+</body>
+</html>
